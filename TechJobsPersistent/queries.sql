@@ -1,6 +1,10 @@
 --Part 1
 -- columns are ID(INT), name(Long Text), and EmployerID (INT) 
 --Part 2
-
+--Select name from employers where location = "St. Louis City"
 --Part 3
-
+--SELECT skills.Name, skills.Description 
+--from skills
+--inner join jobSkills on skills.Id = jobSkills.skillId
+--where jobs.Id is not null
+--order by name;
